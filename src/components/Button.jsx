@@ -1,12 +1,11 @@
 import React from "react";
 
-function Button({ text }) {
+function Button({ text = "Click Me", color = "bg-blue-500", textColor = "text-white", onClick }) {
   return (
     <button
-      className="text-white font-semibold text-lg bg-[#333] hover:bg-blue-600  mr-[130px]"
-      style={{ padding: "18px 28px", width: "147px", height: "63px" }}
+      onClick={onClick}
+      className={`px-4 py-2 rounded ${color} ${textColor} hover:opacity-80 transition duration-200 ` }      style={{ padding: "18px 28px", width: "147px", height: "63px" }}
     >
-     
       {text}
     </button>
   );
