@@ -1,5 +1,6 @@
 import React from "react";
 import Header from "./components/Header";
+import Button from "./components/Button";
 
 function App() {
   return (
@@ -7,7 +8,7 @@ function App() {
       <Header />
       <main className=" max-w-container mx-auto  p-6 ">
         <h2 className="text-xl font-semibold mb-4">Main Content</h2>
-        
+      
       </main>
     </div>
   );
