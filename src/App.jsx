@@ -1,7 +1,14 @@
+import React from "react";
+import Header from "./components/Header";
+
 function App() {
   return (
-    <div className="bg-blue-500 text-white p-4 rounded-lg">
-      <h1 className="text-2xl">Hello, TailwindCSS with Vite!</h1>
+    <div className="min-h-screen bg-gray-100 text-gray-900">
+      <Header />
+      <main className=" max-w-container mx-auto  p-6 ">
+        <h2 className="text-xl font-semibold mb-4">Main Content</h2>
+        
+      </main>
     </div>
   );
 }
