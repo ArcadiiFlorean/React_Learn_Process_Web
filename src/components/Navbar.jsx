@@ -8,7 +8,7 @@ function Navbar() {
       <ul className="flex gap-12 ">
         {navItems.map((item, index) => (
           <li key={index}>
-            <a href={item.link} className="text-black hover:text-gray-300">
+            <a href={item.link} className="text-black hover:text-blue-800">
               {item.name}
             </a>
           </li>
