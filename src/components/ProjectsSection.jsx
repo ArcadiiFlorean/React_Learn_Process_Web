@@ -3,7 +3,7 @@ import React from "react";
 function ProjectsSection() {
   return (
     // Fundal întins complet
-    <section className="w-full bg-gray-50 py-[115px] px-4">
+    <section className="w-full bg-gray-50 py-[115px] px-4 pb-[154px]">
       {/* Containerul limitat la 1140px */}
       <div className="max-w-[1140px] mx-auto w-full px-[20px] md:px-[60px]">
         {/* Titlu Central */}
@@ -20,7 +20,7 @@ function ProjectsSection() {
         {/* Grid de Carduri */}
         <div className="grid gap-6 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 w-full">
           {/* Card 1 - Sus pe toată lățimea */}
-          <div className="p-6 bg-[#f9f5f2] rounded-lg shadow-md col-span-2 flex flex-col md:flex-row justify-between items-center gap-4 w-full">
+          <div className="p-[32px]   pb-0 bg-[#e6cab5] rounded-lg  col-span-2 flex flex-col md:flex-row justify-between items-center gap-4 w-full">
             {/* Text */}
             <div className="flex flex-col flex-grow">
               <h2 className="text-xl font-semibold mb-2 text-[28px] text-[#110f14]">
@@ -46,8 +46,8 @@ function ProjectsSection() {
           </div>
 
           {/* Card 2 */}
-          <div className="p-6 bg-[#f9f5f2] rounded-lg shadow-md w-full flex flex-col justify-between h-full">
-            <div>
+          <div className="p-[42px] pb-0 bg-[#e6cab5] rounded-lg  w-full flex flex-col justify-between h-full">
+            <div className="mb-[32px]">
               <h2 className="text-xl font-semibold mb-2">
                 Japanese Hedge Funds
               </h2>
@@ -67,7 +67,7 @@ function ProjectsSection() {
           </div>
 
           {/* Card 3 */}
-          <div className="p-6 bg-[#f9f5f2] rounded-lg shadow-md w-full flex flex-col justify-between h-full">
+          <div className="p-[42px]   pb-0 bg-[#e6cab5] rounded-lg w-full flex flex-col justify-between h-full">
             <div>
               <h2 className="text-xl font-semibold mb-2">Webinar Replay</h2>
               <p className="text-gray-700">
