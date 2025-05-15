@@ -1,9 +1,11 @@
 import React from "react";
 import Header from "./components/Header";
-import Button from "./components/Button";
+
 import MainContent from "./components/MainContent";
 import ProjectsSection from "./components/ProjectsSection";
 import KeyBenefits from "./components/KeyBenefits";
+import StrengthSection from "./components/StrengthSection";
+import Blog from "./components/Blog";
 
 function App() {
   return (
@@ -12,6 +14,8 @@ function App() {
       <MainContent />
       <ProjectsSection />
       <KeyBenefits />
+      <StrengthSection />
+      <Blog />
     </div>
   );
 }
