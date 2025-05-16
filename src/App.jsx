@@ -6,7 +6,7 @@ import ProjectsSection from "./components/ProjectsSection";
 import KeyBenefits from "./components/KeyBenefits";
 import StrengthSection from "./components/StrengthSection";
 import Blog from "./components/Blog";
-
+import Footer from "./components/Footer";
 function App() {
   return (
     <div className="min-h-screen bg-gray-100 text-gray-900">
@@ -16,6 +16,7 @@ function App() {
       <KeyBenefits />
       <StrengthSection />
       <Blog />
+      <Footer />
     </div>
   );
 }
