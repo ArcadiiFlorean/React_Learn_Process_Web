@@ -7,6 +7,8 @@ import KeyBenefits from "./components/KeyBenefits";
 import StrengthSection from "./components/StrengthSection";
 import Blog from "./components/Blog";
 import Footer from "./components/Footer";
+import 'bootstrap-icons/font/bootstrap-icons.css';
+
 function App() {
   return (
     <div className="min-h-screen bg-gray-100 text-gray-900">
